@@ -2,7 +2,7 @@
 
 This Verilog module implements a pipelined CRC-8 computation using a 9-stage XOR division pipeline. It alternates between posedge and negedge clock triggering to improve data throughput while maintaining correctness. The CRC is computed using the polynomial  (0x07) and compared against an expected value (0x02) to determine if the data transmission is valid.
 
-
+![image](https://github.com/user-attachments/assets/388db7fd-84b4-4371-b913-66187f95f1e6)
 ---
 
 ## Key Features:
