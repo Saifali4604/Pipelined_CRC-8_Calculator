@@ -157,7 +157,6 @@ module crc #(
             reg_stage8 <= 0;
             reg_stage9 <= 0;
             crc <= 0;
-            count<=1;   
         end 
         if(last)begin 
                 last_count <= last_count+1;
